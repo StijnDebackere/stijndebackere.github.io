@@ -25,7 +25,7 @@ agglomerations of galaxies, called galaxy groups and galaxy clusters.
 Their mass and how it is distributed, as well as how many of them we
 can find, contains a wealth of information about the cosmology of the
 Universe. For a layman's introduction to my research, look [here]({%
-post_url 2020-05-17-introduction-to-research %})
+post_url 2020-05-17-introduction-to-research %}).
 
 [leiden-de-sitter]: http://www.leidendesitter.nl/de_Sitter/MSc_%26_PhD_Programme.html
 [leiden-observatory]: https://www.universiteitleiden.nl/en/science/astronomy

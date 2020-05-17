@@ -26,8 +26,8 @@ objects that I use to learn more about cosmology.
 </figure>
 
 My research focusses on studying the interaction between the
-[baryons](https://en.wikipedia.org/wiki/Baryon) inside and outside
-clusters of galaxies, what non-physicists would call matter, and dark
+[baryons](https://en.wikipedia.org/wiki/Baryon) -- what non-physicists
+would call matter -- inside and outside clusters of galaxies and dark
 matter on cosmological scales (millions of lightyears). We are able to
 predict the behaviour of dark matter on these scales very well:
 whatever the actual physical particles that consitute the dark matter
