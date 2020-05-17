@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+// color scheme: https://coolors.co/232c3f-bf929c-e6e6e1-7a7d7d-929191
+$grey-color:       #929191 !default;
+$grey-color-light: #d0cfcf !default;
+$grey-color-dark:  #7a7d7d !default;
+
+$text-color:       #E6E6E1 !default;
+$background-color: #1B1B23 !default;
+$background-light: #323239 !default;
+$background-dark:  #050511 !default;
+$background-hl:    #48484F !default;
+$brand-color:      #b88791 !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;

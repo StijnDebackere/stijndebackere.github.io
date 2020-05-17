@@ -19,14 +19,22 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Stijn Debackere
+location:
+  "Oort building, room 440\n
+  Niels Bohrweg 2, 2333 CA Leiden\n
+  The Netherlands"
 email: debackere@strw.leidenuniv.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Personal homepage for Stijn Debackere, PhD student at Leiden Observatory
-  working with Joop Schaye and Henk Hoekstra
+  working with Joop Schaye and Henk Hoekstra.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  StijnDebackere
+# scholar_username: LqCjqJoAAAAJ
+header_pages:
+  - publications.markdown
+  - blog.markdown
 
 # Build settings
 theme: minima
@@ -41,14 +49,15 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
