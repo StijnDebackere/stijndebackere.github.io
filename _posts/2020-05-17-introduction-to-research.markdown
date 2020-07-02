@@ -21,7 +21,7 @@ group](https://en.wikipedia.org/wiki/Local_Group). These are the
 objects that I use to learn more about cosmology.
 
 <figure>
-<img src="/assets/img/eagle_dark_matter.png">
+<img src="/assets/img/eagle_dark_matter.jpg">
 <figcaption>Dark matter condenses into a cosmic web under the pull of gravity. Credit: The Eagle simulation project</figcaption>
 </figure>
 
