@@ -5,7 +5,7 @@
 layout: home
 ---
 <figure>
-<img src="/assets/img/stijn.png">
+<img src="/assets/img/stijn.jpg">
 <figcaption>Me on top of the Moon Pyramid at Teotihuacán, México.</figcaption>
 </figure>
 
