@@ -31,7 +31,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  StijnDebackere
-# scholar_username: LqCjqJoAAAAJ
+# scholar_username:
+#   - S. Debackere
+#   - LqCjqJoAAAAJ
 header_pages:
   - publications.markdown
   - blog.markdown
