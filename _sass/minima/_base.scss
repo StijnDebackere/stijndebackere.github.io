@@ -124,17 +124,7 @@ a {
   }
 
   &:hover {
-      color: $text-color;
-      background-color: $background-hl;
-      border-radius: 5px;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
+      color: lighten($brand-color, 15%);
   }
 }
 
@@ -222,21 +212,14 @@ pre {
  * Icons
  */
 
-.svg-icon {
+.i {
     width: 16px;
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
     padding-right: 5px;
-    vertical-align: text-top;
+    align: center;
 }
-
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
-}
-
 
 
 /**

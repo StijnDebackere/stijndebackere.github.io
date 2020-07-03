@@ -1,55 +1,34 @@
-<ul class="social-media-list">
-  {%- if site.github_username -%}
-  <li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}">
-        </use>
-      </svg>
-      <span class="username">{{ site.github_username| escape }}</span></a></li>
-  {%- endif -%}
+{%- if site.github_username -%}
+<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"
+   title="Github profile">
+  <i class="fa fa-github-square fa-3x"></i>
+</a>
+{%- endif -%}
 
-  <!-- {%- if site.scholar_username -%} -->
-  <!-- <li><a href="https://scholar.google.com/citations?user={{ site.scholar_username[1]| cgi_escape | escape }}"> -->
-  <!--     <svg class="svg-icon"> -->
-  <!--       <use xlink:href="{{ '/assets/academicons.svg#ads-square'}}"> -->
-  <!--       </use> -->
-  <!--     </svg> -->
-  <!--     <span class="username">{{ site.scholar_username[0] | escape }}</span></a></li> -->
-  <!-- {%- endif -%} -->
+{%- if site.scholar_username -%}
+<a href="https://scholar.google.com/citations?user={{ site.scholar_username| cgi_escape | escape }}"
+   title="Google scholar profile">
+  <i class="ai ai-google-scholar-square ai-3x"></i>
+</a>
+{%- endif -%}
 
-  {%- if site.linkedin_username -%}
-  <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}">
-        </use>
-      </svg>
-      <span class="username">{{ site.linkedin_username| escape }}</span></a></li>
-  {%- endif -%}
+{%- if site.ads_link -%}
+<a href="{{site.ads_link}}"
+   title="NASA ADS publications">
+  <i class="ai ai-ads-square ai-3x"></i>
+</a>
+{%- endif -%}
 
-  {%- if site.twitter_username -%}
-  <li><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}">
-        </use>
-      </svg>
-      <span class="username">{{ site.twitter_username| escape }}</span></a></li>
-  {%- endif -%}
+{%- if site.twitter_username -%}
+<a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"
+   title="Twitter profile">
+  <i class="fa fa-twitter-square fa-3x"></i>      
+</a>
+{%- endif -%}
 
-  {%- if site.youtube_username -%}
-  <li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}">
-        </use>
-      </svg>
-      <span class="username">{{ site.youtube_username| escape }}</span></a></li>
-  {%- endif -%}
-
-  {%- if site.rss -%}
-  <li><a href="{{ 'feed.xml' | relative_url }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}">
-        </use>
-      </svg>
-      <span>{{ site.rss | escape }}</span></a></li>
-  {%- endif -%}
-</ul>
+{%- if site.youtube_username -%}
+<a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"
+   title="Youtube profile">
+  <i class="fa fa-youtube-square fa-3x"></i>        
+</a>
+{%- endif -%}

@@ -29,11 +29,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   working with Joop Schaye and Henk Hoekstra.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 # twitter_username: jekyllrb
 github_username:  StijnDebackere
-# scholar_username:
-#   - S. Debackere
-#   - LqCjqJoAAAAJ
+ads_link: http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&&author=Debackere,S.N.B.
+scholar_username: LqCjqJoAAAAJ
+
+
 header_pages:
   - publications.markdown
   - blog.markdown
