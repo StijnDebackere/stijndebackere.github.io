@@ -28,11 +28,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal homepage for Stijn Debackere, PhD student at Leiden Observatory
   working with Joop Schaye and Henk Hoekstra.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://debackere.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # twitter_username: jekyllrb
 github_username:  StijnDebackere
-ads_link: http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&&author=Debackere,S.N.B.
+ads_link: https://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&&author=Debackere,S.N.B.
 scholar_username: LqCjqJoAAAAJ
 
 
