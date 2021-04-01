@@ -44,7 +44,7 @@ cannot probe as well as that of behemoth clusters. We also showed that
 the outer distribution of gas, which we cannot yet constrain
 observationally, can change the matter clustering by up to 10%.
 
-[ads-link]: http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&&author=Debackere,S.N.B.
+[ads-link]: https://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&&author=Debackere,S.N.B.
 [scholar-link]: https://scholar.google.com/citations?user=LqCjqJoAAAAJ
 [mnras-1]: https://academic.oup.com/mnras/article-abstract/492/2/2285/5673490
 [arxiv-1]: https://arxiv.org/abs/1908.05765
