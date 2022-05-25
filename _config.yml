@@ -20,7 +20,7 @@
 
 title: Stijn Debackere
 location:
-  "Oort building, room 440\n
+  "Oort building, room 535\n
   Niels Bohrweg 2, 2333 CA Leiden\n
   The Netherlands"
 email: debackere@strw.leidenuniv.nl
@@ -39,6 +39,7 @@ scholar_username: LqCjqJoAAAAJ
 header_pages:
   - publications.markdown
   - blog.markdown
+  - thesis.markdown
 
 # Build settings
 theme: minima
