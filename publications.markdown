@@ -6,7 +6,6 @@ For a full list of publications, you can go to either [ads][ads-link] or [Google
 
 Short explanations about my different projects can be found below.
 
-***
 ## How do baryons affect the clustering of matter?
 <!-- https://stackoverflow.com/q/54954544/ arrows in markdown -->
 &#8594; Link to [MNRAS][mnras-1] article and [arXiv][arxiv-1] version
