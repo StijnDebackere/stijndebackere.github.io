@@ -3,8 +3,5 @@ layout: page
 title: Thesis
 ---
 
-# Aggravating matters: Accounting for baryons in cosmological analyses
+# [Aggravating matters: Accounting for baryons in cosmological analyses [pdf]](/assets/thesis/thesis.pdf)
 
-<p style="text-align: center;">
-    <a href="/assets/thesis/thesis.pdf">Thesis [pdf]</a>
-</p>
